@@ -142,16 +142,27 @@
 
 .overview {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    display: flex; 
+    color: white; 
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+
 }
 
 .colomn-inner{
     display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.row-inner{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
+}
+.gray {
+  color: #999;
+  margin: 0 0 0 3px;
 }
 
 .narrative{
